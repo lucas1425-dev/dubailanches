@@ -1,0 +1,89 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('https://img.freepik.com/fotos-gratis/superficie-escura-com-espaco-em-branco-e-fast-food-menu_23-2147684608.jpg?t=st=1736903500~exp=1736907100~hmac=532ee1ad0d505cf9991cd85b5eb75b5e56ba01189328e9e7db3f08a554728734&w=1060');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.cart-section {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btn-finalizar {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-finalizar:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.added-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.added-item button {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.added-item button:hover {
+    background-color: #c62828;
+}
+
+.card-item {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.card-item img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.btn-add {
+    background-color: #ff9800;
+    border-color: #ff9800;
+    width: 100%;
+}
+
+.btn-add:hover {
+    background-color: #f57c00;
+    border-color: #f57c00;
+}
